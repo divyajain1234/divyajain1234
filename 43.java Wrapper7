@@ -1,0 +1,11 @@
+public class Wrapper{
+    public static void main(String[] args) {
+        int i=50;
+        boolean b=true||false;
+        char c='t';
+        byte a=1;
+        short s=8;
+        long l=135l;
+        float f=3.85f;
+        double d=200;
+        System.out.println(i+" "+b+" "+c+" "+a+" "+s+" "+f+" "+l+" "+f+" "+d);
