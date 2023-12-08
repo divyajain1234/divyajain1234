@@ -1,0 +1,23 @@
+
+
+public class Studentsrecords
+{
+/* declaration of instance variables*/
+public String name; //public instance
+public Studentsrecords(String sname)
+{
+name = sname;
+}
+public void printstud()
+
+{
+System.out.println(&quot;Student Name:
+&quot; + name );
+}
+public static void main(String args[])
+{
+Studentsrecords s = new
+Studentsrecords(&quot;Monica&quot;);
+s.printstud();
+}
+}
